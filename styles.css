@@ -1,0 +1,41 @@
+.subjects {
+  padding: 55px 60px;
+  text-align: center;
+  background-color: #f5f7fa;
+}
+
+.subjects h2 {
+  color: #123b6d;
+}
+
+.subject-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.subject-card {
+  width: 300px;
+  padding: 25px;
+  background-color: white;
+  color: #222;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s;
+}
+
+.subject-card:hover {
+  transform: translateY(-8px);
+}
+
+.subject-card h3 {
+  color: #123b6d;
+}
+
+.subject-card span {
+  color: #123b6d;
+  font-weight: bold;
+}
